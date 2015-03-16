@@ -1,0 +1,7 @@
+{
+  "type" : "group",
+  "key" : "group:public",
+  "constituents" : [ "remote:central" ],
+  "doctype" : "group",
+  "name" : "public"
+}
