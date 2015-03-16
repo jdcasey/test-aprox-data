@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8">
+<settings>
+
+<!-- 
+This settings.xml for remote:central incorporates the following stores from AProx:
+  * remote:central
+ -->
+  <localRepository>/root/.m2/repository-remote-central</localRepository>
+  <profiles>
+    <profile>
+      <id>aprox-repos</id>
+      <repositories>
+        <repository>
+          <id>central</id>
+          <url>http://repo1.maven.apache.org/maven2/</url>
+          <name>null</name>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <!-- TODO: Not sure how to detect this... -->
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>central-plugins</id>
+          <url>http://repo1.maven.apache.org/maven2/</url>
+          <name>null - PluginRepository</name>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <!-- TODO: Not sure how to detect this... -->
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>aprox-repos</activeProfile>
+  </activeProfiles>
+</settings>
