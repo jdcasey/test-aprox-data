@@ -1,0 +1,9 @@
+{
+  "type" : "hosted",
+  "key" : "hosted:local-deployments",
+  "snapshotTimeoutSeconds" : 86400,
+  "doctype" : "hosted",
+  "name" : "local-deployments",
+  "allow_snapshots" : true,
+  "allow_releases" : true
+}
