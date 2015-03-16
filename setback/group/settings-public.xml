@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8">
+<settings>
+
+<!-- 
+This settings.xml for group:public incorporates the following stores from AProx:
+ -->
+  <localRepository>/root/.m2/repository-group-public</localRepository>
+  <mirrors>
+    <mirror>
+      <mirrorOf>central</mirrorOf>
+      <id>disabled-central</id>
+      <url>http://not.used:99999/</url>
+    </mirror>
+  </mirrors>  <profiles>
+    <profile>
+      <id>aprox-repos</id>
+      <repositories>
+      </repositories>
+      <pluginRepositories>
+      </pluginRepositories>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>aprox-repos</activeProfile>
+  </activeProfiles>
+</settings>
